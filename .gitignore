@@ -1,0 +1,65 @@
+# =========================
+# Dependencies
+# =========================
+**/node_modules/
+
+# =========================
+# Environment variables
+# =========================
+.env
+**/.env
+.env.local
+.env.*.local
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build outputs
+# =========================
+dist
+build
+**/dist
+**/build
+
+# =========================
+# Vite / React cache
+# =========================
+.vite
+
+# =========================
+# Test coverage
+# =========================
+coverage
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE configs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Lock + runtime files (optional)
+# If you want to commit package-lock.json then REMOVE these lines.
+# =========================
+# package-lock.json
+# bun.lockb
+
+# =========================
+# Nodemon / temp
+# =========================
+.tmp
+temp
